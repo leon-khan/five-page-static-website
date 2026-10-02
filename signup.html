@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - My Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>My Website</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="signup.html">Sign Up</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Sign Up Form</h2>
+        <form>
+            <p>
+                <label for="fullname">Full Name (Text):</label><br>
+                <input type="text" id="fullname" name="fullname">
+            </p>
+
+            <p>
+                <label for="email">Email Address (Email):</label><br>
+                <input type="email" id="email" name="email">
+            </p>
+
+            <p>
+                <label for="password">Password (Password):</label><br>
+                <input type="password" id="password" name="password">
+            </p>
+
+            <p>
+                <label for="age">Age (Number):</label><br>
+                <input type="number" id="age" name="age">
+            </p>
+
+            <p>
+                <label for="dob">Date of Birth (Date):</label><br>
+                <input type="date" id="dob" name="dob">
+            </p>
+
+            <p>
+                <label>Gender (Radio):</label><br>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+            </p>
+
+            <p>
+                <input type="checkbox" id="terms" name="terms">
+                <label for="terms">I agree to the terms and conditions (Checkbox)</label>
+            </p>
+
+            <p>
+                <label for="profilepic">Upload Profile Picture (File):</label><br>
+                <input type="file" id="profilepic" name="profilepic">
+            </p>
+
+            <p>
+                <label for="phone">Phone Number (Telephone):</label><br>
+                <input type="tel" id="phone" name="phone">
+            </p>
+
+            <p>
+                <label for="website">Personal Website (URL):</label><br>
+                <input type="url" id="website" name="website">
+            </p>
+
+            <p>
+                <label for="country">Country (Select/Dropdown):</label><br>
+                <select id="country" name="country">
+                    <option value="">--Select Country--</option>
+                    <option value="bd">Bangladesh</option>
+                    <option value="us">United States</option>
+                    <option value="uk">United Kingdom</option>
+                </select>
+            </p>
+
+            <p>
+                <label for="bio">Bio (Textarea):</label><br>
+                <textarea id="bio" name="bio" rows="4" cols="30"></textarea>
+            </p>
+
+            <p>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </p>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; Leon Khan</p>
+        <p>&copy; ID : 0272320005101054</p>
+    </footer>
+</body>
+</html>
